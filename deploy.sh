@@ -3,7 +3,7 @@ hexo clean
 hexo generate
 touch ./public/.nojekyll
 #echo "42011024.xyz">./public/CNAME
-#echo "www.42011024.xyz">./public/CNAME
+echo "www.42011024.xyz">./public/CNAME
 hexo deploy
 
 git add .
