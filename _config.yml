@@ -106,6 +106,3 @@ deploy:
   type: git
   repo: git@github.com:brokge/hao.git
   branch: master
-
-admin:
-  deployCommand: './deploy.sh''
