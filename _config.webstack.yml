@@ -16,15 +16,16 @@ menu:
   - name: 常用工具
     icon: far fa-star
     config: hotTools
-  - name: 其他工具
+  - name: 开发工具
     icon: fas fa-tools
-    submenu:
-      - name: 开发工具
-        icon: fas fa-tools
-        config: devTools
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
+    config: devTools
+    #submenu:
+    #  - name: 开发工具
+    #    icon: fas fa-tools
+    #    config: devTools
+    #  - name: 我的博客
+    #    icon: fas fa-blog
+    #    config: myBlog
 
 devTools:
   - name: Github
@@ -45,14 +46,14 @@ hotTools:
     url: https://github.com/
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: SpringCloud
+    url: https://spring.io/projects/spring-cloud
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/A404D17034A947238935C2EEAF058920.jpg
+    description: Spring Cloud 就是用于构建微服务开发和治理的框架集合
+  - name: Dubbo
+    url: http://dubbo.apache.org/zh-cn/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/1193A7D557C04E5282C7200B8DAB5F9C.jpg
+    description: Apache Dubbo™ 是一款高性能Java RPC框架
 
 myBlog:
   - name: YUSUZI Blog
