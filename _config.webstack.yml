@@ -40,7 +40,10 @@ devTools:
     url: https://nacos.io/zh-cn/
     img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/2E192C3005DE43608018C2999F214D97.jpg
     description: 动态服务发现、配置管理和服务管理平台.
-
+ - name: Zookeeper
+    url: https://zookeeper.apache.org/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/1C29549A3C5446A984643B9FABC9ED2C.jpg
+    description: 实现高度可靠的分布式协调组件
 hotTools:
   - name: Github
     url: https://github.com/
