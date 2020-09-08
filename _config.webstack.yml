@@ -28,18 +28,18 @@ menu:
     #    config: myBlog
 
 devTools:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: Sentinel
+    url: https://sentinelguard.io/zh-cn/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/F037D7C6BC484CC1B13D7C978C9CE28C.jpg
+    description: 面向分布式服务架构的高可用流量防护组件.
+  - name: RocketMQ
+    url: https://rocketmq.apache.org/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/AB305A7970C54FA18A715F76CBB0556B.jpg
+    description: 是一个分布式消息传递和流式处理平台。
+  - name: Nacos
+    url: https://nacos.io/zh-cn/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/2E192C3005DE43608018C2999F214D97.jpg
+    description: 动态服务发现、配置管理和服务管理平台.
 
 hotTools:
   - name: Github
