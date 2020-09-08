@@ -44,6 +44,10 @@ devTools:
     url: https://zookeeper.apache.org/
     img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/1C29549A3C5446A984643B9FABC9ED2C.jpg
     description: 实现高度可靠的分布式协调组件
+- name: Feign
+    url: https://spring.io/projects/spring-cloud-openfeign
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/420CA61E75BD43E79BB5FFEE20170B82.jpg
+    description: 一个http请求调用的轻量级框架
 hotTools:
   - name: Github
     url: https://github.com/
