@@ -62,6 +62,10 @@ hotTools:
     url: http://dubbo.apache.org/zh-cn/
     img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/1193A7D557C04E5282C7200B8DAB5F9C.jpg
     description: Apache Dubbo™ 是一款高性能Java RPC框架
+  - name: Java
+    url: https://docs.oracle.com/en/java/javase/index.html
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/20200908192143.png
+    description: Java jdk 相关文档入口
 
 myBlog:
   - name: YUSUZI Blog
