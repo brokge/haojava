@@ -19,6 +19,9 @@ menu:
   - name: 开发工具
     icon: fas fa-tools
     config: devTools
+  - name: ELK 工具
+    icon: fas fa-tools
+    config: elkTools
     #submenu:
     #  - name: 开发工具
     #    icon: fas fa-tools
@@ -26,6 +29,23 @@ menu:
     #  - name: 我的博客
     #    icon: fas fa-blog
     #    config: myBlog
+elkTools:
+  - name: elasticSearch
+    url: https://www.elastic.co/guide/index.html
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/2ED27D4B5BE04B3B918C40C69D1BECBD.jpg
+    description: 一个基于 JSON 的分布式搜索和分析引擎
+  - name: Beats
+    url: https://www.elastic.co/cn/beats/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/A98A8ACA109540CA8086AC2284576346.jpg
+    description:  是一个面向轻量型采集器的平台，这些采集器可从边缘机器发送数据。
+  - name: Logstash
+    url: https://www.elastic.co/cn/logstash
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/83454E5498FE4C6AA4B5D5C153D7480F.jpg
+    description: 是动态数据收集管道，拥有可扩展的插件生态系统。
+  - name: kibana
+    url: https://www.elastic.co/cn/kibana 
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/A37B2A789A7F4D2595AA3B7493CFD42F.jpg
+    description: Kibana 可以让您的数据变得有形有样，是一个可扩展的用户界面。
 
 devTools:
   - name: Sentinel
