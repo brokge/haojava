@@ -22,6 +22,9 @@ menu:
   - name: ELK 工具
     icon: fas fa-tools
     config: elkTools
+  - name: 容器化工具
+    icon: fas fa-tools
+    config: containerTools
     #submenu:
     #  - name: 开发工具
     #    icon: fas fa-tools
@@ -46,7 +49,23 @@ elkTools:
     url: https://www.elastic.co/cn/kibana 
     img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/A37B2A789A7F4D2595AA3B7493CFD42F.jpg
     description: Kibana 可以让您的数据变得有形有样，是一个可扩展的用户界面。
-
+containerTools:
+  - name: Docker
+    url: https://docs.docker.com/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/6D267F8505EC47F884B53AA0E6196962.jpg
+    description: 一个开源的应用容器引擎，基于 Go 语言 
+  - name: k8s
+    url: https://kubernetes.io/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/A7AAA1AA2D3441098C9BCD8816415A36.jpg
+    description: 管理云平台中多个主机上的容器化的应用
+  - name: Harbor
+    url: https://goharbor.io/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/F841A07E0ABE4A4F9443049A8EC4C79B.jpg
+    description: 用于存储和分发Docker镜像的企业级Registry服务器。
+  - name: Swarm
+    url: https://docs.docker.com/engine/swarm/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/FD5F1138A37B4FE092E2D33E2FB20C35.jpg
+    description: Docker 的集群管理工具
 devTools:
   - name: Sentinel
     url: https://sentinelguard.io/zh-cn/
@@ -101,14 +120,14 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a></p></blockquote>'
+    html: '<blockquote><p>本站是一个导航工具网站，有问题欢迎反馈</blockquote>'
   webmaster:
     head: 关于站长
     name: 玉苏子
     url: https://www.yusuzi.cn/
     img: /images/logos/myblog.png
-    description: 
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/brokge">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+    description: 日常搬砖
+    html: '<br /><blockquote><p>本站是<a href="https://github.com/brokge">brokge</a>做的一个导航网站。</p></blockquote>'
 
 since: 2020
 
