@@ -51,6 +51,14 @@
         </a>
       </li>
       <% } %>
+      <% if (theme.feedback) { %>
+        <li class="submit-tag">
+          <a href="<%= url_for(theme.feedback.url) %>">
+            <i class="<%= theme.feedback.icon %>"></i>
+            <span class="tooltip-blue"><%= theme.feedback.name %></span>
+          </a>
+        </li>
+      <% } %>
       <% if (theme.busuanzi.enable && theme.busuanzi.position === 'sidebar') { %>
       <li>
         <a href="javascript:void(0)">
