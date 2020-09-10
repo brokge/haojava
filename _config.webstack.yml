@@ -167,7 +167,6 @@ js:
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 css:
-  hclonely: /css/hclonely.css
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
   linecons: /css/fonts/linecons/css/linecons.min.css
   fontawesome: /css/fonts/fontawesome/css/all.min.css
@@ -176,3 +175,4 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+  hclonely: /css/hclonely.css
