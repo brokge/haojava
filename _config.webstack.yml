@@ -89,6 +89,10 @@ devTools:
     description: 一个http请求调用的轻量级框架
 
 hotTools:
+  - name: 鸿蒙
+    url: https://developer.harmonyos.com/cn/home/
+    img: https://cdn.jsdelivr.net/gh/brokge/drawio/img/20200911114822.png
+    description: 国产系统
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
