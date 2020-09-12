@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 架构师的网址导航
+title: Java的自由导航
 subtitle: ''
 description: ''
 keywords:
@@ -11,6 +11,11 @@ author: yusuzi
 language: en
 timezone: ''
 
+logo: /images/logo@2x.png
+# Page metadata configurations
+head:
+    # URL or path to the website's icon
+    favicon: /images/favicon.png
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://www.haojava.cn
